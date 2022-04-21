@@ -71,4 +71,5 @@ Tyler John Caudill
 # How many arguments did you pass your method?
 3
 # What data type was your argument(s)?
+strings
 String
