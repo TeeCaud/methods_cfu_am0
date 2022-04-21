@@ -7,17 +7,24 @@
 # The return value is "HI"
 "Hello World".upcase
 
+- In irb this will output "HELLO WORLD". We are using the .upcase method to capitalize everything
 
 "Hello World".include?("Hello")
 
+- The output is true. This method is looking to see if "Hello" is included. in the string
 
 "Hello World".end_with?("Hello")
 
+-The output is false. Hello World does not end with "Hello"
 
 "Hello World".end_with?("rld")
 
+-The output is true. This method is looking for the end of the string. Which in this case is rld
 
 "Hello World".length
 
+- The output is 11. The length method is used to find how many characters are in the string.
 
 "Hello World".size
+
+- The output is 11. The .size method is the same as .length. According to my research it may have been an overridden method.
